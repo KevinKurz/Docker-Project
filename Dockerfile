@@ -2,7 +2,7 @@
 FROM nginx:latest
 
 # Kopieren Sie das Frontend in das Verzeichnis /usr/share/nginx/html/frontend
-COPY ./Frontend /usr/share/nginx/html/
+COPY ./Frontend /usr/share/nginx/html/Frontend
 
 # Kopieren Sie das Backend in das Verzeichnis /usr/share/nginx/html/backend
 COPY ./Backend /usr/share/nginx/html/Backend/
